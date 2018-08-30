@@ -3,7 +3,12 @@ class Dog
   @@DOGS = []
   def initialize(name)
     @name = name
-    @@DOGS << name
+    @@DOGS << self
+  end
+  def self.all
+    @@all.each do |puppy|
+      puts name
+    end
   end
   def self.clear_all
     DOGS =[]
