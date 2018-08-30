@@ -7,7 +7,7 @@ class Dog
   end
   def self.all
     @@all.each do |puppy|
-      puts puppy
+      puts "#{puppy}"
     end
   end
   def self.clear_all
